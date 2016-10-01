@@ -1,4 +1,49 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
 header {
   height: 64px;
   background-color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
+.logo {
+  padding-left: 20px;
+  margin-left: 20px;
+  font-size: 32px;
+}
+section {
+  height: 100vh;
+}
+
+section#splash{
+  height: 200vh;
+  background-image: url("8885.jpg");
+  background-size: cover;
+}
+
+
+.container {
+  padding: 0 15%;
+  height: 100%
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+section#splash p {
+font-size: 24px
+background-color: rgba(255, 255, 255, 0.5);
+padding: 10px;
+border-radius: 5px;
+text-align:center;
+}
+
+html{
+  font-family: 'Lobster',sans-serif;
+}
+
+
+@import 'https://fonts.googleapis.com/css?family=Lobster'
